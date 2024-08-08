@@ -1,0 +1,4 @@
+##Ignore
+05_Sampling/*.csv
+05_Sampling/*.xlsx
+01_Image_Acquisition/*.txt

@@ -9,6 +9,7 @@ import json
 def do_download(kdprov):
     print('########################################################')
     print('Downloading for' ,kdprov)
+    start_time=time.time()
     data_provinsi='/data/ksa/00_Data_Input/provinsi.gpkg'
     gpd_provinsi=gpd.read_file(data_provinsi)
     prov_=gpd_provinsi.query('provno==@kdprov')

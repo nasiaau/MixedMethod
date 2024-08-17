@@ -7,5 +7,5 @@ These codes represent the process conducted for downloading the Sentinel 1 Image
 - 03 Image Check Coverage.ipynb => the notebook used for checking the coverage of satellite acqusition.
 
 Contributor:
-Achmad Fauzi Bagus Firmansyah
-Fawcet Jenusdy Makay
+- Achmad Fauzi Bagus Firmansyah
+- Fawcet Jenusdy Makay

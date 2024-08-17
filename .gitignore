@@ -1,7 +1,7 @@
 ##Ignore
 05_Sampling/*.csv
 05_Sampling/*.xlsx
-#01_Image_Acquisition/*.txt
+01_Image_Acquisition/*.txt
 06_Training_Preprocessing/*.png
 06_Training_Preprocessing/*.pkl
 07_Modeling/keras_tuner/

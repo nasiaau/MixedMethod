@@ -1,4 +1,4 @@
-# Project Overview
+# KSA Data Preprocessing
 
 This project includes scripts for processing and analyzing spatial and observational data. The project is structured with two main scripts: `ksa_decoding.py` and `points_cloning.py`. The scripts are executed using the `main.ipynb` notebook, and the necessary libraries and Python version are specified in the `config.json` file.
 
@@ -57,6 +57,12 @@ This script provides a function to generate artificial spatial points in a grid 
   - `a`: The "radius" of the grid around each point, determining how many points are generated. For example, `a=1` generates a 3x3 grid.
   - `distance_meters`: The distance in meters between the original point and each new point in the grid.
 
+## **Further Explanation**
+
+### **ASF POINTS SUBSEGMENT REGULARIZATION**
+The Area Sampling Frame (ASF) survey data includes labels and geotagging or monthly location data from 2022 to 2023. Since the data is obtained from field geotagging, the location points are not precise and differ monthly based on the accuracy and location of the tagging. Therefore, 24 different points are obtained for each ASF subsegment. However, for the purpose of collecting satellite imagery data for training, consistent locations are required for each month to acquire temporal data.
+
+![](assets/picture%201.PNG)
 
 ## Contributor
 
